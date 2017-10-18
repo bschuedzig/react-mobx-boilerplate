@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "removeComments": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "alwaysStrict": true,
+    // "noUnusedParameters": true,
+    // "noUnusedLocals": true,
+    "lib": ["es2015", "es5", "es2016", "es6", "dom"],
+    "paths": {
+      "react": ["node_modules/@types/react"]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./test/**/*"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": true,
+    "useTranspileModule": true,
+    "transpileOnly": true
+  }
+}
