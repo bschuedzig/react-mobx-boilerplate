@@ -59,7 +59,7 @@ class ListDetailHoc extends React.Component<IProps, {}> {
         </div>
 
         <div id="col2">
-          <Details name={name} id={id} />
+          <Route path="/example1/:id" component={() => <Details name={name} id={id} /> } />
         </div>
       </div>
     );

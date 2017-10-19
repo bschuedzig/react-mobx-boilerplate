@@ -8,12 +8,6 @@ interface IProps {
 
 class Details extends React.Component < IProps, {} > {
 
-  constructor() {
-
-    super();
-    console.log('Details.ctor()');
-  }
-
   public render() {
 
     const name = this.props.name || '<not set>';
